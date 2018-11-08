@@ -1,0 +1,6 @@
+C:\code\MinerWatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.csprojAssemblyReference.cache
+C:\code\MinerWatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.csproj.CoreCompileInputs.cache
+C:\code\MinerWatchDog\WatchDog.Common\bin\Debug\WatchDog.Domain.dll
+C:\code\MinerWatchDog\WatchDog.Common\bin\Debug\WatchDog.Domain.pdb
+C:\code\MinerWatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.dll
+C:\code\MinerWatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.pdb

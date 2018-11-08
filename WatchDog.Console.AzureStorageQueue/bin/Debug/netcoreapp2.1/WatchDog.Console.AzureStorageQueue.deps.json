@@ -1,0 +1,117 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "WatchDog.Console.AzureStorageQueue/1.0.0": {
+        "dependencies": {
+          "OpenHardwareMonitorLib": "1.0.0",
+          "WatchDog.Azure.StorageQueue": "1.0.0",
+          "WatchDog.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WatchDog.Console.AzureStorageQueue.dll": {}
+        }
+      },
+      "OpenHardwareMonitorLib/1.0.0": {
+        "runtime": {
+          "OpenHardwareMonitorLib.dll": {}
+        }
+      },
+      "WatchDog.Azure.StorageQueue/1.0.0": {
+        "dependencies": {
+          "WatchDog.Domain": "1.0.0",
+          "Microsoft.WindowsAzure.Storage": "9.3.2.0",
+          "Newtonsoft.Json": "10.0.0.0",
+          "Microsoft.WindowsAzure.Configuration": "3.0.0.0",
+          "Microsoft.Azure.KeyVault.Core": "1.0.0.0"
+        },
+        "runtime": {
+          "WatchDog.Azure.StorageQueue.dll": {}
+        }
+      },
+      "WatchDog.Domain/1.0.0": {
+        "runtime": {
+          "WatchDog.Common.dll": {}
+        }
+      },
+      "Microsoft.WindowsAzure.Storage.Reference/9.3.2.0": {
+        "runtime": {
+          "Microsoft.WindowsAzure.Storage.dll": {
+            "assemblyVersion": "9.3.2.0",
+            "fileVersion": "9.3.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json.Reference/10.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.2.20802"
+          }
+        }
+      },
+      "Microsoft.WindowsAzure.Configuration.Reference/3.0.0.0": {
+        "runtime": {
+          "Microsoft.WindowsAzure.Configuration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.3.0"
+          }
+        }
+      },
+      "Microsoft.Azure.KeyVault.Core.Reference/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Azure.KeyVault.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WatchDog.Console.AzureStorageQueue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenHardwareMonitorLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WatchDog.Azure.StorageQueue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WatchDog.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAzure.Storage.Reference/9.3.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json.Reference/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAzure.Configuration.Reference/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.KeyVault.Core.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
