@@ -1,7 +1,5 @@
 ﻿using OpenHardwareMonitor.Hardware;
 using System;
-using System.Collections.Generic;
-using WatchDog.Azure.ServiceBus;
 using WatchDog.Domain;
 
 namespace MinerWatchDog
@@ -57,13 +55,13 @@ namespace MinerWatchDog
         {
             try
             {
-                var messageQueue = new MessageQueue();                
-                while (true)
-                {
-                    var machine = GetSystemInfo();
-                    messageQueue.SendMessage(machine).Wait();
-                    System.Threading.Thread.Sleep(1000);
-                }
+                //var messageQueue = new MessageQueue();                
+                //while (true)
+                //{
+                //    var machine = GetSystemInfo();
+                //    messageQueue.SendMessage(machine).Wait();
+                //    System.Threading.Thread.Sleep(1000);
+                //}
             }
             catch (Exception ex)
             {

@@ -3,7 +3,6 @@ using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
 using Microsoft.WindowsAzure.Storage.Queue; // Namespace for Queue storage types
 using WatchDog.Domain;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace WatchDog.Azure.StorageQueue
 {
@@ -24,7 +23,7 @@ namespace WatchDog.Azure.StorageQueue
 
             // Create a message and add it to the queue.
             var message = new CloudQueueMessage(messageJson);
-            queue.AddMessage(message);
+            queue.AddMessage(message);            
         }
     }
 }

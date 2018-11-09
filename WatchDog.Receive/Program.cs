@@ -1,10 +1,10 @@
-﻿using OpenHardwareMonitor.Hardware;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using WatchDog.Azure.ServiceBus;
+using OpenHardwareMonitor.Hardware;
 using WatchDog.Domain;
+//using WatchDog.Azure.ServiceBus;
 
-namespace MinerWatchDog
+namespace WatchDog.Receive
 {
     public class Program
     {
@@ -14,15 +14,15 @@ namespace MinerWatchDog
         {
             try
             {
-                var messageQueue = new MessageQueue();
-                int i = 0;
+                //var messageQueue = new MessageQueue();
+                //int i = 0;
 
-                while (true)
-                {
-                    var messageContent = messageQueue.ReceiveMessageAsync();
-                    Console.WriteLine(messageContent.Result);
-                    Console.WriteLine(++i);
-                }
+                //while (true)
+                //{
+                //    var messageContent = messageQueue.ReceiveMessageAsync();
+                //    Console.WriteLine(messageContent.Result);
+                //    Console.WriteLine(++i);
+                //}
             }
             catch (Exception ex)
             {

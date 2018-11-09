@@ -1,10 +1,9 @@
-﻿using OpenHardwareMonitor.Hardware;
-using System;
-using System.Collections.Generic;
+﻿using System;
+using OpenHardwareMonitor.Hardware;
 using WatchDog.Azure.StorageQueue;
 using WatchDog.Domain;
 
-namespace WatchDog.Console.AzureStorageQueue
+namespace WatchDog.Console.AzureStoreQueue.Standard
 {
     class Program
     {
@@ -24,6 +23,7 @@ namespace WatchDog.Console.AzureStorageQueue
             public void VisitSensor(ISensor sensor) { }
             public void VisitParameter(IParameter parameter) { }
         }
+
         static Machine GetSystemInfo()
         {
             var machine = new Machine();

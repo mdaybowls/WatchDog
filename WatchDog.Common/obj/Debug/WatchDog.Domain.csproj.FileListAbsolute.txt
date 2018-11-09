@@ -4,3 +4,10 @@ C:\code\MinerWatchDog\WatchDog.Common\bin\Debug\WatchDog.Domain.dll
 C:\code\MinerWatchDog\WatchDog.Common\bin\Debug\WatchDog.Domain.pdb
 C:\code\MinerWatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.dll
 C:\code\MinerWatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.pdb
+C:\git\WatchDog\WatchDog.Common\bin\Debug\WatchDog.Domain.dll
+C:\git\WatchDog\WatchDog.Common\bin\Debug\WatchDog.Domain.pdb
+C:\git\WatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.dll
+C:\git\WatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.pdb
+C:\git\WatchDog\WatchDog.Common\bin\Debug\OpenHardwareMonitorLib.dll
+C:\git\WatchDog\WatchDog.Common\bin\Debug\OpenHardwareMonitorLib.pdb
+C:\git\WatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.csprojResolveAssemblyReference.cache

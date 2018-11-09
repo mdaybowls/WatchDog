@@ -49,13 +49,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\openhardwaremonitor-master\OpenHardwareMonitorLib.csproj">
+    <ProjectReference Include="..\..\openhardwaremonitor\OpenHardwareMonitorLib.csproj">
       <Project>{b0397530-545a-471d-bb74-027ae456df1a}</Project>
       <Name>OpenHardwareMonitorLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\WatchDog\WatchDog.Azure.ServiceBus\WatchDog.Azure.ServiceBus.csproj">
-      <Project>{64031dd7-b104-4cf0-9b24-595ca5bc8886}</Project>
-      <Name>WatchDog.Azure.ServiceBus</Name>
     </ProjectReference>
     <ProjectReference Include="..\WatchDog.Common\WatchDog.Domain.csproj">
       <Project>{43da23fd-86ff-40e6-b588-d43e8581c972}</Project>
