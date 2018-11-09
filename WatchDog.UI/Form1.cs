@@ -49,15 +49,16 @@ namespace WatchDog.UI
         }
 
         private void UpdateStatus(string status)
-        {            
-            lstStatus.Items.Add($"{DateTime.Now} : {status}");
-            tsMessageCount.Text = _messageCounter.ToString();
+        {
+            tsStatusMessage.Text = $@"{DateTime.Now} : {status}";
+            lblMessageCount.Text = _messageCounter.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             chkMinimized.Checked = Properties.Settings.Default.StartMinimized;
             chkAutoStart.Checked = Properties.Settings.Default.AutoStart;
+            Location = Properties.Settings.Default.Location;
         }
 
         private void tmrTime_Tick(object sender, EventArgs e)
@@ -99,6 +100,7 @@ namespace WatchDog.UI
         {
             Properties.Settings.Default.AutoStart = chkAutoStart.Checked;
             Properties.Settings.Default.StartMinimized = chkMinimized.Checked;
+            Properties.Settings.Default.Location = Location;
             Properties.Settings.Default.Save();
         }
     }
