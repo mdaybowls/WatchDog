@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace WatchDog.Domain
+﻿namespace WatchDog.Domain
 {
     public class SensorModified
     {
