@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 using WatchDog.Azure.StorageQueue;
 using WatchDog.Domain.HardwareMonitor;
@@ -9,6 +10,7 @@ namespace WatchDog.UI
     public partial class frmWatchDog : Form
     {
         private int _messageCounter;
+        private Stopwatch _stopWatch = new Stopwatch();
 
         public frmWatchDog()
         {
@@ -25,12 +27,14 @@ namespace WatchDog.UI
                 tsStatus.Text = @"Running";
                 btn_Process.Text = @"Stop";
                 UpdateStatus("Started");
+                _stopWatch.Start();
             }
             else
             {
                 tsStatus.Text = @"Stopped";
                 btn_Process.Text = @"Start";
                 UpdateStatus("Stopped");
+                _stopWatch.Stop();
             }
         }
 
@@ -64,6 +68,7 @@ namespace WatchDog.UI
         private void tmrTime_Tick(object sender, EventArgs e)
         {
             tsTime.Text = DateTime.Now.ToLongTimeString();
+            tsElapsed.Text = $@"{_stopWatch.Elapsed.Hours:00}:{_stopWatch.Elapsed.Minutes:00}:{_stopWatch.Elapsed.Seconds:00}";
         }
 
         private void Form1_Resize(object sender, EventArgs e)

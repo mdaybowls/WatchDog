@@ -43,6 +43,8 @@
             this.chkAutoStart = new System.Windows.Forms.CheckBox();
             this.chkMinimized = new System.Windows.Forms.CheckBox();
             this.lblMessageCount = new System.Windows.Forms.Label();
+            this.tsElapsed = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +73,9 @@
             this.toolStripSeparator4,
             this.tsStatus,
             this.toolStripSeparator1,
-            this.tsStatusMessage});
+            this.tsStatusMessage,
+            this.tsElapsed,
+            this.toolStripSeparator2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 67);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(508, 25);
@@ -151,11 +155,24 @@
             // 
             this.lblMessageCount.AutoSize = true;
             this.lblMessageCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessageCount.Location = new System.Drawing.Point(235, 16);
+            this.lblMessageCount.Location = new System.Drawing.Point(226, 16);
             this.lblMessageCount.Name = "lblMessageCount";
             this.lblMessageCount.Size = new System.Drawing.Size(36, 39);
             this.lblMessageCount.TabIndex = 9;
             this.lblMessageCount.Text = "0";
+            // 
+            // tsElapsed
+            // 
+            this.tsElapsed.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.tsElapsed.Name = "tsElapsed";
+            this.tsElapsed.Size = new System.Drawing.Size(49, 22);
+            this.tsElapsed.Text = "00:00:00";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // frmWatchDog
             // 
@@ -198,6 +215,8 @@
         private System.Windows.Forms.ToolStripLabel tsStatusMessage;
         private System.Windows.Forms.Label lblMessageCount;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripLabel tsElapsed;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }
 
