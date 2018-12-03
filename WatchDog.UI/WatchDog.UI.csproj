@@ -49,16 +49,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmProcessList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmProcessList.Designer.cs">
+      <DependentUpon>FrmProcessList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWatchDog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWatchDog.Designer.cs">
+      <DependentUpon>FrmWatchDog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSettings.Designer.cs">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmProcessList.resx">
+      <DependentUpon>FrmProcessList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWatchDog.resx">
+      <DependentUpon>FrmWatchDog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSettings.resx">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,16 +99,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WatchDog.Azure.StorageQueue\WatchDog.Azure.StorageQueue.csproj">
-      <Project>{77BC4155-BA2B-4785-A240-47B39D283A87}</Project>
-      <Name>WatchDog.Azure.StorageQueue</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WatchDog.Common\WatchDog.Domain.csproj">
       <Project>{43da23fd-86ff-40e6-b588-d43e8581c972}</Project>
       <Name>WatchDog.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WatchDog.Utilities\WatchDog.Utilities.csproj">
+      <Project>{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}</Project>
+      <Name>WatchDog.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

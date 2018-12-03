@@ -1,0 +1,4 @@
+C:\git\WatchDog\WatchDog.Utilities\bin\Debug\WatchDog.Utilities.dll
+C:\git\WatchDog\WatchDog.Utilities\bin\Debug\WatchDog.Utilities.pdb
+C:\git\WatchDog\WatchDog.Utilities\obj\Debug\WatchDog.Utilities.dll
+C:\git\WatchDog\WatchDog.Utilities\obj\Debug\WatchDog.Utilities.pdb

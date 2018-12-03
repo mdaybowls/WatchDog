@@ -3,21 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinerWatchDog.Console.AzureServiceBus", "MinerWatchDog.Console.AzureServiceBus.csproj", "{3F1670E2-EC6A-4DAA-8C52-535265B257BC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94F9CC9A-CB74-4C5C-A173-D52250A6B3BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Domain", "WatchDog.Common\WatchDog.Domain.csproj", "{43DA23FD-86FF-40E6-B588-D43E8581C972}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Receive", "WatchDog.Receive\WatchDog.Receive.csproj", "{9E946BEE-E0AC-4F6F-8154-57BC0D19B12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Azure.StorageQueue", "WatchDog.Azure.StorageQueue\WatchDog.Azure.StorageQueue.csproj", "{77BC4155-BA2B-4785-A240-47B39D283A87}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Console.AzureStoreQueue.Standard", "WatchDog.Console.AzureStoreQueue.Standard\WatchDog.Console.AzureStoreQueue.Standard.csproj", "{84FD4E9F-98F2-4702-99FE-490D34468AFD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHardwareMonitorLib", "..\openhardwaremonitor\OpenHardwareMonitorLib.csproj", "{B0397530-545A-471D-BB74-027AE456DF1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.UI", "WatchDog.UI\WatchDog.UI.csproj", "{C8A3B231-BCF5-4223-BC38-E14A2925E5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDummy", "ConsoleDummy\ConsoleDummy.csproj", "{4762F633-2249-4B45-A9F2-D3EE7416D9B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Utilities", "WatchDog.Utilities\WatchDog.Utilities.csproj", "{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F1670E2-EC6A-4DAA-8C52-535265B257BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F1670E2-EC6A-4DAA-8C52-535265B257BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F1670E2-EC6A-4DAA-8C52-535265B257BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F1670E2-EC6A-4DAA-8C52-535265B257BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43DA23FD-86FF-40E6-B588-D43E8581C972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43DA23FD-86FF-40E6-B588-D43E8581C972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DA23FD-86FF-40E6-B588-D43E8581C972}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,14 +31,6 @@ Global
 		{9E946BEE-E0AC-4F6F-8154-57BC0D19B12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E946BEE-E0AC-4F6F-8154-57BC0D19B12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E946BEE-E0AC-4F6F-8154-57BC0D19B12E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77BC4155-BA2B-4785-A240-47B39D283A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77BC4155-BA2B-4785-A240-47B39D283A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77BC4155-BA2B-4785-A240-47B39D283A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77BC4155-BA2B-4785-A240-47B39D283A87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84FD4E9F-98F2-4702-99FE-490D34468AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84FD4E9F-98F2-4702-99FE-490D34468AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84FD4E9F-98F2-4702-99FE-490D34468AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84FD4E9F-98F2-4702-99FE-490D34468AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0397530-545A-471D-BB74-027AE456DF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0397530-545A-471D-BB74-027AE456DF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0397530-545A-471D-BB74-027AE456DF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,6 +39,14 @@ Global
 		{C8A3B231-BCF5-4223-BC38-E14A2925E5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A3B231-BCF5-4223-BC38-E14A2925E5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A3B231-BCF5-4223-BC38-E14A2925E5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4762F633-2249-4B45-A9F2-D3EE7416D9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4762F633-2249-4B45-A9F2-D3EE7416D9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4762F633-2249-4B45-A9F2-D3EE7416D9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4762F633-2249-4B45-A9F2-D3EE7416D9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

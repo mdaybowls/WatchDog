@@ -63,3 +63,5 @@ C:\git\WatchDog\WatchDog.Receive\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 C:\git\WatchDog\WatchDog.Receive\bin\Debug\Newtonsoft.Json.xml
 C:\git\WatchDog\WatchDog.Receive\bin\Debug\Microsoft.IdentityModel.Logging.pdb
 C:\git\WatchDog\WatchDog.Receive\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\git\WatchDog\WatchDog.Receive\bin\Debug\WatchDog.Utilities.dll
+C:\git\WatchDog\WatchDog.Receive\bin\Debug\WatchDog.Utilities.pdb

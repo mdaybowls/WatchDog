@@ -58,5 +58,77 @@ namespace WatchDog.UI.Properties {
                 this["Location"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string CustomerId {
+            get {
+                return ((string)(this["CustomerId"]));
+            }
+            set {
+                this["CustomerId"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AccessCode {
+            get {
+                return ((string)(this["AccessCode"]));
+            }
+            set {
+                this["AccessCode"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Mining\\ClaymorMiner\\start_ETH_Nanopool.bat")]
+        public string MinerPath {
+            get {
+                return ((string)(this["MinerPath"]));
+            }
+            set {
+                this["MinerPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AutoStartMiner {
+            get {
+                return ((bool)(this["AutoStartMiner"]));
+            }
+            set {
+                this["AutoStartMiner"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("EthDcrMiner64")]
+        public string MinerProcessName {
+            get {
+                return ((string)(this["MinerProcessName"]));
+            }
+            set {
+                this["MinerProcessName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Mining\\ClaymorMiner")]
+        public string MinerWorkingFolder {
+            get {
+                return ((string)(this["MinerWorkingFolder"]));
+            }
+            set {
+                this["MinerWorkingFolder"] = value;
+            }
+        }
     }
 }

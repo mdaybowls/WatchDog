@@ -34,3 +34,5 @@ C:\git\WatchDog\WatchDog.Azure.StorageQueue\obj\Debug\WatchDog.Azure.StorageQueu
 C:\git\WatchDog\WatchDog.Azure.StorageQueue\obj\Debug\WatchDog.Azure.StorageQueue.csprojResolveAssemblyReference.cache
 C:\git\WatchDog\WatchDog.Azure.StorageQueue\bin\Debug\OpenHardwareMonitorLib.dll
 C:\git\WatchDog\WatchDog.Azure.StorageQueue\bin\Debug\OpenHardwareMonitorLib.pdb
+C:\git\WatchDog\WatchDog.Azure.StorageQueue\bin\Debug\WatchDog.Utilities.dll
+C:\git\WatchDog\WatchDog.Azure.StorageQueue\bin\Debug\WatchDog.Utilities.pdb

@@ -11,3 +11,7 @@ C:\git\WatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.pdb
 C:\git\WatchDog\WatchDog.Common\bin\Debug\OpenHardwareMonitorLib.dll
 C:\git\WatchDog\WatchDog.Common\bin\Debug\OpenHardwareMonitorLib.pdb
 C:\git\WatchDog\WatchDog.Common\obj\Debug\WatchDog.Domain.csprojResolveAssemblyReference.cache
+C:\git\WatchDog\WatchDog.Common\bin\Debug\WatchDog.Utilities.dll
+C:\git\WatchDog\WatchDog.Common\bin\Debug\WatchDog.Utilities.pdb
+C:\git\WatchDog\WatchDog.Common\bin\Debug\Newtonsoft.Json.dll
+C:\git\WatchDog\WatchDog.Common\bin\Debug\Newtonsoft.Json.xml

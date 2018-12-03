@@ -82,3 +82,5 @@ C:\git\WatchDog\bin\Debug\Newtonsoft.Json.xml
 C:\git\WatchDog\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\git\WatchDog\bin\Debug\System.IdentityModel.Tokens.Jwt.pdb
 C:\git\WatchDog\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\git\WatchDog\bin\Debug\WatchDog.Utilities.dll
+C:\git\WatchDog\bin\Debug\WatchDog.Utilities.pdb
