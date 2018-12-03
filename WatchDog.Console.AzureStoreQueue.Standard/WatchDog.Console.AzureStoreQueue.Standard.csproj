@@ -54,10 +54,6 @@
       <Project>{b0397530-545a-471d-bb74-027ae456df1a}</Project>
       <Name>OpenHardwareMonitorLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WatchDog.Azure.StorageQueue\WatchDog.Azure.StorageQueue.csproj">
-      <Project>{77BC4155-BA2B-4785-A240-47B39D283A87}</Project>
-      <Name>WatchDog.Azure.StorageQueue</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WatchDog.Common\WatchDog.Domain.csproj">
       <Project>{43DA23FD-86FF-40E6-B588-D43E8581C972}</Project>
       <Name>WatchDog.Domain</Name>

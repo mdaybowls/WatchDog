@@ -1,0 +1,6 @@
+C:\git\WatchDog\ConsoleDummy\bin\Debug\ConsoleDummy.exe.config
+C:\git\WatchDog\ConsoleDummy\bin\Debug\ConsoleDummy.exe
+C:\git\WatchDog\ConsoleDummy\bin\Debug\ConsoleDummy.pdb
+C:\git\WatchDog\ConsoleDummy\obj\Debug\ConsoleDummy.csprojResolveAssemblyReference.cache
+C:\git\WatchDog\ConsoleDummy\obj\Debug\ConsoleDummy.exe
+C:\git\WatchDog\ConsoleDummy\obj\Debug\ConsoleDummy.pdb

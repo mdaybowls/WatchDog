@@ -31,8 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +49,13 @@
     <Compile Include="Environment.cs" />
     <Compile Include="HardwareMonitor\HardwareMonitorHelper.cs" />
     <Compile Include="HardwareMonitor\UpdateVisitor.cs" />
+    <Compile Include="Interfaces\ISubscriptionMessageHandler.cs" />
     <Compile Include="Machine.cs" />
+    <Compile Include="Messaging\MinerCommandMessage.cs" />
+    <Compile Include="Messaging\SubscriptionEventArgs.cs" />
+    <Compile Include="Messaging\SubscriptionMessageHandler.cs" />
+    <Compile Include="MinerProcess.cs" />
+    <Compile Include="ProcessChangedEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SensorModified.cs" />
   </ItemGroup>
@@ -53,6 +64,13 @@
       <Project>{B0397530-545A-471D-BB74-027AE456DF1A}</Project>
       <Name>OpenHardwareMonitorLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WatchDog.Utilities\WatchDog.Utilities.csproj">
+      <Project>{C0675A27-9B28-4D9C-9CDB-9D0C9D57522E}</Project>
+      <Name>WatchDog.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
